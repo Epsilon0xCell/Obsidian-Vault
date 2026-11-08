@@ -1,4 +1,8 @@
+![Intro: deeper in the seed vault, a gloved hand tipping one open packet over a frost rimed steel tray, dark seeds and a small folded handwritten note spilling out, rows of sealed amber and white packets soft behind](intro-banner.png)
+
 # Obsidian-Vault
+
+<p align="center"><img src="logo.png" alt="Obsidian-Vault logo: a heavy round steel vault door swung open in a concrete wall, warm light and ordered shelves of labelled seed packets and jars visible through the round doorway" width="200"></p>
 
 This repo is my Obsidian vault: the storehouse where my linked notes live. It is the one place my reading, research, and project notes are kept together as plain Markdown, written to be linked to each other, so a note earns its place by what it connects to and not just by where it sits.
 
@@ -18,3 +22,5 @@ This commit is the seed. The vault starts here as a declared structure: this REA
 ## How the vault is kept
 
 The vault is plain files on purpose: Markdown that any editor can read, no database, nothing locked inside one app. Obsidian is the working surface, and the links between notes are the structure that matters. The vault's Obsidian configuration is tracked separately in the Obsidian-Vault-Config repo.
+
+![Banner: a cold aisle inside the seed vault, frost edged steel shelves holding thousands of small amber and white packets in perfect rows, one packet drawn out and held up to the light at the aisle's end](banner.png)
