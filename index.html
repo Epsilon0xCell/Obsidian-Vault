@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obsidian-Vault: the seed vault</title>
+<style>
+@font-face{font-family:'Alegreya SC';src:url('fonts/AlegreyaSC-Regular.ttf') format('truetype');font-weight:400}
+@font-face{font-family:'Alegreya SC';src:url('fonts/AlegreyaSC-Bold.ttf') format('truetype');font-weight:700}
+@font-face{font-family:'Alegreya Sans';src:url('fonts/AlegreyaSans-Regular.ttf') format('truetype');font-weight:400}
+@font-face{font-family:'Alegreya Sans';src:url('fonts/AlegreyaSans-Bold.ttf') format('truetype');font-weight:700}
+*{box-sizing:border-box}
+body{margin:0;background:#141a21;color:#2a2c26;font-family:'Alegreya Sans',sans-serif;line-height:1.65}
+.vault{max-width:760px;margin:0 auto;padding:26px 22px 10px}
+header.hero img{width:100%;height:auto;display:block;border:3px solid #46586a}
+.door{display:block;margin:22px auto 4px;width:190px;height:190px;border-radius:50%;object-fit:cover;border:4px solid #46586a}
+h1{font-family:'Alegreya SC',serif;font-weight:700;font-size:2.1rem;margin:.35em 0 .1em;color:#eef2f5;text-align:center;letter-spacing:.02em}
+.lede{font-size:1.08rem;max-width:62ch;color:#b9c4cd;margin:0 auto;text-align:center}
+h2{font-family:'Alegreya SC',serif;font-weight:700;font-size:1.3rem;color:#eef2f5;margin:0 0 10px;letter-spacing:.02em}
+.cold{border:0;height:10px;margin:28px 0 4px;background:repeating-linear-gradient(90deg,#46586a 0 30px,#232d37 30px 36px);position:relative}
+.cold::after{content:'';position:absolute;left:50%;top:-6px;width:22px;height:22px;margin-left:-13px;border-radius:50%;border:3px solid #c8871e;background:#141a21}
+.packet{background:#f0ead8;border:1px solid #b9ac83;padding:20px 24px;margin:14px 0;box-shadow:4px 4px 0 rgba(70,88,106,.55)}
+.shelf{display:flex;justify-content:space-between;gap:14px;border-bottom:1px solid #cfc39c;padding:8px 2px}
+.shelf b{font-family:'Alegreya SC',serif;white-space:nowrap}
+.shelf span{color:#4c4636;text-align:right}
+.seal{display:inline-block;background:#c8871e;color:#171207;font-family:'Alegreya SC',serif;font-weight:700;letter-spacing:.06em;padding:.55em 1.3em;border:2px solid #7d5410;border-radius:3px;text-decoration:none;margin:6px 10px 6px 0}
+.seal:hover{background:#dda12e}
+a.lnk{color:#a8c4dd;text-decoration:underline #c8871e 1px;text-underline-offset:3px}
+a.lnk:hover{text-decoration-thickness:2px}
+footer{max-width:760px;margin:0 auto;padding:16px 22px 42px;color:#8b98a3;font-size:.9rem;text-align:center}
+</style>
+</head>
+<body>
+<div class="vault">
+<header class="hero">
+<img src="assets/banner.png" alt="A cold aisle inside the seed vault, frost edged steel shelves holding thousands of small amber and white packets in perfect rows, one packet drawn out and held up to the light at the aisle end">
+<img class="door" src="assets/logo.png" alt="A heavy round steel vault door swung open in a concrete wall, warm light and ordered shelves of labelled seed packets and jars visible through the round doorway">
+<h1>Obsidian-Vault</h1>
+<p class="lede">My Obsidian vault: the storehouse where my linked notes live. Reading, research, and project notes kept together as plain Markdown, written to be linked to each other, so a note earns its place by what it connects to and not just by where it sits.</p>
+</header>
+<hr class="cold">
+<section class="packet">
+<h2>The seed</h2>
+<p>This site stands on the vault's seed commit: a README stating the purpose and the layout, and the starting folders below, each held by a .gitkeep file until real notes land in it. There are no notes in the vault yet, and nothing here pretends otherwise. Notes get added as they are written, and the folders fill in from real use rather than from a bulk import.</p>
+</section>
+<hr class="cold">
+<section class="packet">
+<h2>The shelves: the layout</h2>
+<div class="shelf"><b>Inbox/</b><span>capture first; new notes land here unsorted</span></div>
+<div class="shelf"><b>Notes/</b><span>the main body of the vault; finished notes that stand on their own</span></div>
+<div class="shelf"><b>Daily/</b><span>daily notes, one per day, where loose ends gather</span></div>
+<div class="shelf"><b>Projects/</b><span>notes that belong to a live project, kept together while the work runs</span></div>
+<div class="shelf"><b>References/</b><span>source material: books, papers, talks, and pages the notes draw on</span></div>
+<div class="shelf"><b>Templates/</b><span>the starting shapes for new notes</span></div>
+<div class="shelf"><b>Attachments/</b><span>images and files that notes link to, kept inside the vault</span></div>
+<div class="shelf"><b>Archive/</b><span>retired notes; nothing is deleted outright</span></div>
+</section>
+<hr class="cold">
+<section class="packet">
+<h2>How the vault is kept</h2>
+<p>The vault is plain files on purpose: Markdown that any editor can read, no database, nothing locked inside one app. Obsidian is the working surface, and the links between notes are the structure that matters. The vault's Obsidian configuration is tracked separately in the Obsidian-Vault-Config repo.</p>
+<p>
+<a class="seal" href="https://github.com/Epsilon0xCell/Obsidian-Vault">The vault on GitHub</a>
+<a class="seal" href="https://github.com/Epsilon0xCell/Obsidian-Vault-Config">The vault's configuration</a>
+</p>
+</section>
+</div>
+<footer>Obsidian-Vault: sealed, labelled, and retrievable. Fonts: Alegreya SC and Alegreya Sans (SIL Open Font License 1.1, license beside each font file).</footer>
+</body>
+</html>
